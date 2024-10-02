@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+    <title>魚菜共生相聚宴</title>
+    <link rel="stylesheet"href="styles.css">
+    <style>
+        body{
+            font-family:"Microsoft Yahei",sans-serif;
+            background-color:#f0f0f0;
+            }
+        h1{
+          background-color:#6a9fb5;
+          color:white;
+          text-align:center;
+          }
+       h2,h3,p{
+         text-align:center;
+         }
+       #agenda{
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              }
+      form{
+          width:600px;
+          margin:0 auto;
+          }
+      footer{
+            background-color:gray;
+            }
+    </style>
+</head>
+<body>
+  <!--頁首-->
+  <header>
+    <h1>魚菜共生相聚宴</h1>
+    <h2>活動簡介與時間地點</h2>
+    <p>時間:10/11 21:00</p>
+    <p>地點:新北市林口區竹林山觀音寺對面</p>
+    <p>簡介:時隔一個月的全家團聚宴會，有宵夜，有電影，歡迎參加!</p>
+  </header>
+
+  <!--活動議程-->
+  <section id="agenda">
+     <h2>活動議程</h2>
+     <ul>
+       <li>21:00-參加者進場</li>
+       <li>21:30-開場致詞</li>
+       <li>21:40-用餐及聊天時間</li>
+       <li>22:00-電影欣賞</li>
+       <li>00:00-宴會結束</li>
+     </ul>
+  </section>
+
+  <!--主辦者介紹-->
+  <section id-"speakers">
+     <h2>主辦者介紹</h2>
+     <h3>蔡侑蒔</h3>
+     <p>魚菜之家的小鬼，充滿活力，能夠快速活絡宴會氣氛</p>
+  </section>
+
+  <!--報名表單-->
+  <section id="signup">
+     <h2>報名參加</h2>
+     <form action="submit_form.php" method="post">
+       <label for="name">姓名:</label>
+       <input type="text" id="name" name="name" required>
+       <label for="email">電子郵件:</label>
+       <input type="email" id="email" email="email" required>
+       <button type="submit">提交</button>
+     </form>
+  </section>
+
+  <!--聯絡我們-->
+  <footer>
+     <p>聯繫方式:star0912108996@gmail.com</p>
+  </footer>
+</body>
+</html>
+
+  
